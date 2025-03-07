@@ -180,7 +180,7 @@ main ul li a:hover {
   border-color: var(--light-primary);
   width: 500px;
   /* Adjust the size of the image */
-  height: 6000px;
+  height: 600px;
   /* Ensure the image is square */
   object-fit: cover;
   /* Ensure the image fits within the circle */
