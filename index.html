@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>chan-portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="asset\style.css" />
+  <script src="asset\script.js"></script>
+
+  <!-- if you write dot In front of the href means it will specify the directory best to write that -->
+  <!-- to use the prettier extensions then use right click and format documnet to format the document-->
+</head>
+
+<body>
+  <header class="header-class">
+    <div>
+      <span> SUKIN JOSE <span class="high"> C</span> </span>
+    </div>
+
+    <div class="list-header">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#CONT">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="top-image">
+      <a href="images/1.jpg" download>
+        <button type="button"> DOWNLOAD CV</button>
+      </a>
+
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero-section">
+      <div>
+        <h4>Hi There <span class="high">!</span></h4>
+        <br />
+        <h2 class="hero-section__title">
+          I'm <span class="title-sub">SUKIN JOSE </span>
+        </h2>
+        <br />
+        <p class="hero-sec-des">
+
+
+          I'm Sukin, Python Developer and Web Designer specializing in automation and robotics.<br> third-year
+          Instrumentation Engineering student with experience in PLC systems, Raspberry Pi, Arduino, and industrial
+          automation. I aim to create innovative solutions at the intersection of software, automation, and web
+          technologies. 🚀 </p>
+        <br />
+        <div>
+          <!-- social icons will available here-->
+          <ul class="brand">
+            <li>
+              <a href="www.linkedin.com/in/sukin-jose-b60a48285" target="_blank"><i
+                  class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="https://github.com/sukinjose" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+        <br />
+
+        <div>
+          <a href="https://wa.me/919597318513">
+            <button type="button" class="main-button " target>Hire me</button>
+          </a>
+
+          <a href="images/1.jpg" download>
+            <button type="button" class="main-button">DOWNLOAD CV</button>
+          </a>
+
+        </div>
+      </div>
+
+      <div class="main_img">
+        <img src="images/WhatsApp Image 2025-03-07 at 22.36.21_d7f2aacf.png" alt="chan-photo" />
+      </div>
+    </section>
+
+    <!-- about me-->
+    <section id="about" class="third">
+      <div class="second-img">
+        <img src="images/sukin_photo.jpg" alt="sukin pic" width="500" />
+      </div>
+      <div class="third-des">
+        <div class="text-content">
+          <div class="nrml_txt">I'm a</div>
+          <div class="inc">Frontend Developer</div>
+        </div>
+        <div class="about1">
+          <ul class="aboutme">
+            <li><strong>Specialist:</strong> Problem-solving</li>
+            <li>
+              <strong>Languages:</strong> Python| HTML | CSS| JavaScript |
+            </li>
+            <li>
+              <strong>Tools:</strong> Canva | VS code | Figma |
+            </li>
+            <li>
+              <strong>Email:</strong>
+              <a href="mailto:sukinjose@gmail.com ">sukinjose@gmail.com</a>
+            </li>
+            <li><strong>Phone :</strong> 9597318513</li>
+          </ul>
+        </div>
+        <button class="main-button" style="padding: top 10px">
+          Know More
+        </button>
+      </div>
+    </section>
+
+    <section id="services" class="Work-session">
+      <h4 class="title">My <span class="high1">Works</span></h4>
+      <div class="service-content">
+        <div class="works-session-box">
+          <span>
+            <i class="fa-solid fa-display" style="color: #12bdff"></i></span>
+          <h4 class="high">UI/UX Designer :</h4>
+          <p>
+            Learning figma and doing hands on work on project to improve my
+            Skills
+          </p>
+        </div>
+        <div class="works-session-box">
+          <span><i class="fa-brands fa-dev" style="color: #12bdff"></i></span>
+          <h4 class="high">Portfolio Design :</h4>
+          <p>Worked as Freelancer in many projects</p>
+        </div>
+        <div class="works-session-box">
+          <span><i class="fa-solid fa-code" style="color: #12bdff"></i></span>
+          <h4 class="high">Python Devolper :</h4>
+          <p>Doing multiple projects and improving my skills</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact me -->
+    <section id="CONT" class="contact-section">
+      <div class="contact1">
+        <h4>Contact <span>Me</span></h4>
+        <!-- Single form tag to wrap all inputs and button -->
+        <form action="https://api.web3forms.com/submit" method="post">
+
+          <input type="text" placeholder="Full Name" name="name" />
+          <input type="text" placeholder="What's up" name="subject" />
+          <textarea type="text" placeholder="Enter Briefly" name="details" rows="5"></textarea>
+          <!-- Hidden input field for access key -->
+          <input type="hidden" name="access_key" value="f33899a9-88d2-443f-b59a-307e2de9fac9" />
+
+          <!-- Submit button inside the form tag -->
+          <div>
+            <button type="submit">Send a message</button>
+          </div>
+
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <h4>
+        Copyright &copy;
+        <a href="https://github.com/sukinjose" target="_blank">sukin-jose</a>
+        All Rights are Reserved
+      </h4>
+
+</html>

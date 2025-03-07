@@ -1,0 +1,30 @@
+what will u do ?
+If the hover effect is not working what u should do is the check in the inspect what is overide that in my case what is did the image size cover my button so that I wont able to the hover effect.
+what are the new app which I discover in the course ?
+1.font awesome....(cdnjs need to be downlaod and copy the pack first)
+2.Google fonts....
+3.Insepect-accessibility (contrast)....
+4.inspect la top left corner la mobile view iruku.
+5.image optimizer  to reduce the size of the images.
+6.To ge the rounded image give the exact value in the height and width.
+7.css aboutme section mail tag underline it requires specifically need to be mentioned 
+8.text-align: for maintaing the text center
+9.justify-content:
+10.display:flex
+11.align-items
+12:In work seeion box the h4 tag does not apear on the top this is due the unwanted adding of the dipaly:flex in (work-session-box) 
+13: If you are about to use the email you have to use the mailto in in the href
+
+14. problem faced during the icon setup in the [work session box]
+Elements with display: inline behave like text—they only take up as much width as needed and don't disrupt the flow of surrounding content. However, there are some limitations:
+Margins and Padding: For inline elements, vertical margins (top and bottom) and padding are generally ignored, meaning they won't create any space above or below the element. Only horizontal margins and padding (left and right) work properly.
+Setting Width/Height: Inline elements can't have their width or height explicitly set. They automatically take up as much width as their content requires.
+
+The Benefit of display: inline-block
+When you change an element's display to inline-block, it behaves like an inline element in terms of flowing with text but also gains the characteristics of a block-level element:
+Respects Vertical Margins and Padding: Unlike inline elements, inline-block elements respect top and bottom margins and padding. This is why, after setting an element to inline-block, you can use margin-bottom, padding-top, etc., and see the expected spacing.
+Can Set Width and Height: You can explicitly define the width and height of an inline-block element, which isn't possible with purely inline elements.
+
+
+what will you do if you ur content is crossing across the page then you have to go for the overflow?
+overfow:hidden ; >>>> is used to create omit the content outside the page.
